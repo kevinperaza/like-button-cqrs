@@ -4,7 +4,7 @@ import React, { useReducer } from "react";
 const useUILogic = () => {
   const initialState = {
     likes: 100,
-    liked: false
+    isBtnLiked: false
   };
 
   const reducer = (state, action) => {
